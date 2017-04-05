@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#00897b</color>
+    <color name="colorPrimaryDark">#009688</color>
     <color name="colorAccent">#FF4081</color>
+
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="primary_color">#4A312A</color>
+    <color name="primary_color">#4caf50</color>
 
     <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="primary_dark_color">#2F1D1A</color>
@@ -12,8 +13,8 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
     <!-- Color -->
-    <color name="tab_text_color">#A8A19E </color>
+    <color name="tab_text_color">#e0e0e0 </color>
 
-    <color name="selected_tab_text_color">#FFFFFF</color>
+    <color name="selected_tab_text_color">#fffFFF</color>
 
 </resources>

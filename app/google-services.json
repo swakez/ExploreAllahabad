@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "533440787136",
+    "firebase_url": "https://travelallahabad-a9e0a.firebaseio.com",
+    "project_id": "travelallahabad-a9e0a",
+    "storage_bucket": "travelallahabad-a9e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533440787136:android:762743036956a2f1",
+        "android_client_info": {
+          "package_name": "swakez.github.io.exploreallahabad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533440787136-a3s17v2scqgno2dmjq6470dacii3i8of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "swakez.github.io.exploreallahabad",
+            "certificate_hash": "8b6edc752f2c20690e7b6589133367ea0326c0a9"
+          }
+        },
+        {
+          "client_id": "533440787136-ul2id94l8oi8aof3kbjcqoe4hbpbbd07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXO2dbqL4GmXDGgcWrG_jSSoH6YMo75Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533440787136-ul2id94l8oi8aof3kbjcqoe4hbpbbd07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
