@@ -1,5 +1,6 @@
 package swakez.github.io.exploreallahabad;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,9 +25,11 @@ public class RoamAdapter extends RecyclerView.Adapter<RoamAdapter.ViewHolder> {
         public TextView mTextViewUpper;
         public TextView mTextViewLower;
 
+        private Context mContext;
 
-        public ViewHolder(View view) {
+        public ViewHolder(Context context,View view) {
             super(view);
+            mContext = context;
             this.mTextViewUpper = (TextView)itemView.findViewById(R.id.text_view_upper);
             this.mTextViewLower = (TextView)itemView.findViewById(R.id.text_view_lower);
 
@@ -44,7 +47,7 @@ public class RoamAdapter extends RecyclerView.Adapter<RoamAdapter.ViewHolder> {
         // create a new view
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.card_layout, parent, false);
-        ViewHolder viewHolder = new ViewHolder(view);
+        ViewHolder viewHolder = new ViewHolder(parent.getContext(),view);
         return viewHolder;
     }
 

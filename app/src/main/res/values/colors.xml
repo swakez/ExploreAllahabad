@@ -13,8 +13,10 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
     <!-- Color -->
-    <color name="tab_text_color">#b0bec5</color>
+    <color name="tab_text_color">#cfd8dc</color>
 
     <color name="selected_tab_text_color">#fffFFF</color>
 
+    <!-- Background color for layout -->
+    <color name="background_color">#efebe9</color>
 </resources>
